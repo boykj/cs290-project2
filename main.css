@@ -7,6 +7,13 @@ header {
   background-color: #666;
 }
 
+footer {
+  border-top: solid;
+  border-color: black;
+  margin-top: 50px;
+  color: #ADA8A5;
+}
+
 header h1 {
   padding: 20px;
   text-align: center;
@@ -45,7 +52,7 @@ nav a#lnk_add {
 
 #motorcycle {
   text-align: center;
-  width: 100%;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -62,8 +69,9 @@ nav a#lnk_add {
   color: #FFF;
 }
 
-#motorcycles td {
+#motorcycles td, th {
   padding: 20px;
+  text-align: left;
 }
 
 img.thumbnail {
