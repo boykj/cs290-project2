@@ -92,3 +92,8 @@ ul#categories {
   margin: 40px;
   padding: 0;
 }
+
+input[type=submit] {
+  margin-left: 150px;
+}
+
