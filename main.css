@@ -54,6 +54,7 @@ nav a#lnk_add {
   text-align: center;
   max-width: 80%;
   margin: auto;
+  align-content: flex-start;
 }
 
 #motorcycles {
@@ -72,6 +73,10 @@ nav a#lnk_add {
 #motorcycles td, th {
   padding: 20px;
   text-align: left;
+}
+
+tbody :hover {
+  background-color: #D3D3D3;
 }
 
 img.thumbnail {
