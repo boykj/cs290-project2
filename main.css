@@ -54,7 +54,6 @@ nav a#lnk_add {
   text-align: center;
   max-width: 80%;
   margin: auto;
-  align-content: flex-start;
 }
 
 #motorcycles {
@@ -84,6 +83,10 @@ img.thumbnail {
   box-shadow: -1px 1px 4px #666;
 }
 
+img.large {
+  width: 80%;
+}
+
 #motorcycle img {
   box-shadow: -2px 2px 6px #666;
 }
@@ -109,4 +112,5 @@ ul#categories {
 input[type=submit] {
   margin-left: 150px;
 }
+
 
